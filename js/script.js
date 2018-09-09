@@ -17,13 +17,12 @@ window.onload = function() {
 
 
 var imget = document.getElementById("kvadratet");
-var sanget = document.getElementById("rummetfyldt");
+var sanget = new Audio('../sound/rummetfyldt.mp3');
 
 imget.addEventListener("mouseover", playMusic, false);
 imget.addEventListener("mouseout", stopMusic, false);
 
 function playMusic() {
-    console.log('hallo');
     sanget.play();
 }
 
@@ -31,4 +30,3 @@ function stopMusic () {
     sanget.pause();
 }
 
-//* var sanget = new Audio('../sound/rummetfyldt.mp3'); *//
