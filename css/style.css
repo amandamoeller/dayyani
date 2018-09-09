@@ -159,7 +159,7 @@ q {
 
 }
 
-.billeder4 img {
+ #kvadratet, #kvadratto, #kvadrattre, #kvadratfire {
     width: 85%;
     height: auto;
     margin-left: auto;
@@ -363,7 +363,7 @@ footer > div {
     }
 
 
-    .kvadrat {
+    #kvadratet, #kvadratto, #kvadrattre, #kvadratfire {
         display: block;
         width: 100%;
         margin-right: 0;
